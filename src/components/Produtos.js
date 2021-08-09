@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { Carrinho } from "./Carrinho";
 
 import foguete from "../img/foguete.jpg";
 import foguete2 from "../img/foguete2.jpeg";
