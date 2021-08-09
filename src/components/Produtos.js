@@ -2,6 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import { Carrinho } from "./Carrinho";
 
+import foguete from "../img/foguete.jpg";
+import foguete2 from "../img/foguete2.jpeg";
+import agua from "../img/agua.jpeg";
+import terreno from "../img/terreno.jpeg";
+import roupa from "../img/roupa.jpeg";
+
 const ProdutosContainer = styled.div`
   border: 1px solid black;
   padding: 0 8px;
@@ -21,7 +27,7 @@ const ProdutosGrid = styled.div`
 `;
 
 const CardProduto = styled.div`
-  border: 1px solid black;
+  border: 1px solid white;
 `;
 
 const ImagemProduto = styled.img`
@@ -39,31 +45,31 @@ export class Produtos extends React.Component {
         id: 1,
         name: "Foguete da Missão Apollo 11",
         value: 10000.0,
-        imageUrl: "https://picsum.photos/200/200",
+        imageUrl: foguete2,
       },
       {
         id: 2,
         name: "Roupa de Astronauta",
         value: 100.0,
-        imageUrl: "https://picsum.photos/200/200?a=1",
+        imageUrl: roupa,
       },
       {
         id: 3,
-        name: "Jantar na Lua com Jeff Bezos",
+        name: "Agua de Marte",
         value: 200.0,
-        imageUrl: "https://picsum.photos/200/200?a=2",
+        imageUrl: agua,
       },
       {
         id: 4,
-        name: "Estadia em marte",
+        name: "Estadia em Marte",
         value: 300.0,
-        imageUrl: "https://picsum.photos/200/200?a=3",
+        imageUrl: foguete,
       },
       {
         id: 5,
-        name: "Viagem para buraco negro",
+        name: "Terreno na Lua",
         value: 300.0,
-        imageUrl: "https://picsum.photos/200/200?a=4",
+        imageUrl: terreno,
       },
     ],
   };

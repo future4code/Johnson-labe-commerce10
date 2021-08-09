@@ -4,6 +4,10 @@ import { Carrinho } from "./components/Carrinho";
 import styled from "styled-components";
 import React from "react";
 
+const ImagemFundo = styled.div`
+  opacity: 0.5;
+`
+
 const AppContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
